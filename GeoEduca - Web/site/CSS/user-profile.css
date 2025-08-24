@@ -1,0 +1,153 @@
+body{
+    font-family: "PT Sans", sans-serif;
+    margin: 0px;
+    height: 79vh;
+}
+.navbar {
+  background: #1E3A8A;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.navbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #F97316;
+}
+
+.logout-btn {
+  background: #F97316;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.logout-btn:hover {
+  background: #e85c00;
+}
+
+
+/* Container principal da página de perfil */
+.perfil-container {
+    width: 95%;
+    height: 98%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff; 
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,1);
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+
+}
+.perfil-graficos {
+    height: 1000px;
+    flex: 2;
+    margin: 10px;
+    gap: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    padding: 10px;
+    border-radius: 5px;
+
+    
+    max-height: 100%; 
+    overflow-y: auto; 
+    overflow-x: scroll; 
+}
+
+
+.perfil-info {
+    width: 16%;
+    height: 96.7%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+.perfil-info a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #1E3A8A;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.perfil-info h1 {
+    margin: 0 0 10px 0;
+    color: #1E3A8A;
+}
+
+.perfil-info p {
+    margin: 5px 0;
+    color: #333;
+}
+
+
+/* Título da seção de gráficos */
+.perfil-graficos h2 {
+    margin: 0 0 10px 0;
+    color: #1E3A8A;
+}
+
+/* Placeholder de gráficos */
+.grafico-placeholder {
+    height: 400px;
+    margin: 10px;
+    background: linear-gradient(135deg, #5e89ff, #1E3A8A);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.perfil-notificacoes {
+    margin-top: 20px;
+    background-color: #e3ebff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.perfil-notificacoes h2 {
+    margin: 0 0 10px 0;
+    color: #1E3A8A;
+    font-size: 18px;
+}
+
+.perfil-notificacoes ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.perfil-notificacoes ul li {
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 14px;
+}

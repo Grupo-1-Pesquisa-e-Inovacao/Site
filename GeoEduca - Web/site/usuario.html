@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel do Cliente - GeoEduca</title>
+  <link rel="stylesheet" href="../CSS/user-area.css">
+  <link rel="icon" type="image/png" href="../IMGS/LOGO-IMG2.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">GeoEduca</div>
+    <nav>
+      <ul>
+        <li><a href="usuario.html" style="color: orange;">Início</a></li>
+        <li><a href="user-profile.html">Meu Perfil</a></li>
+        <li><a href="mapa.html">Gráficos</a></li>
+        <li><a href="configurações.html">Configurações</a></li>
+        <li><a href="index.html" class="logout-btn"><i class="fa-solid fa-right-from-bracket"></i> Sair</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main class="dashboard-container">
+    <h1>Bem-vindo, <span id="username">Usuário</span> 👋</h1>
+    <p>Aqui estão seus principais dados e funcionalidades.</p>
+
+    <div class="cards-container">
+      <div class="card">
+        <i class="fa-solid fa-user"></i>
+        <h3>Meu Perfil</h3>
+        <p>Veja e edite suas informações pessoais.</p>
+        <a href="user-profile.html">Acessar</a>
+      </div>
+
+      <div class="card">
+        <i class="fa-solid fa-chart-line"></i>
+        <h3>Gráficos</h3>
+        <p>Acompanhe desempenho e analise gráficos.</p>
+        <a href="mapa.html">Acessar</a>
+      </div>
+
+      <div class="card">
+        <i class="fa-solid fa-gear"></i>
+        <h3>Configurações</h3>
+        <p>Personalize sua conta e preferências.</p>
+        <a href="configurações.html">Acessar</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-bottom">
+      <p>&copy; 2025 GeoEduca - Todos os direitos reservados</p>
+    </div>
+  </footer>
+
+</body>
+</html>
